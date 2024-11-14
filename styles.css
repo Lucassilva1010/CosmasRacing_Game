@@ -1,0 +1,13 @@
+body {
+    margin: 0; /* Remove as margens padrão do body */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do body */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+    background-color: #f0f0f0; /* Define uma cor de fundo clara */
+}
+
+#gameCanvas {
+    border: 2px solid #000; /* Adiciona uma borda preta ao redor do canvas */
+}
